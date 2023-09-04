@@ -1,6 +1,9 @@
 import { useState } from "react";
 
 const usePasswordGenerator = () => {
+
+
+
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
